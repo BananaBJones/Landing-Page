@@ -1,0 +1,160 @@
+body {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0;
+}
+
+.header {
+  /* border: 2px solid red; */
+  background: #1F2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+.links{
+  /* border: 2px solid red; */
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  gap: 12px;
+  color: #E5E7EB;
+}
+
+.logo {
+  /* border: 2px solid red; */
+  font-size: 24px;
+  color: #F9FAF8;
+  margin: 15px;
+}
+
+ /* *** Next Section *** */
+
+.hero {
+  /* border: 2px solid red; */
+  color: white;
+  background: #1F2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  gap: 80px;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero-info {
+  display: flex;
+  max-width: 400px;
+}
+
+img {
+  /* border: 2px solid red; */
+  width: 350px;
+  height: 250px;
+  flex: 1 1 350px;
+}
+
+.image {
+  /* align-self: flex-en; */
+}
+
+.button {
+  /* border: 2px solid red; */
+  color: white;
+  background: #3882F6;
+  width: 80px;
+  height: 30px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  border-radius: 8px;
+}
+
+/*  
+      *** next section ***        
+*/
+
+.title {
+  align-self: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #1F2937
+}
+.container{
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  /* border: 2px solid red; */
+  height: 200px;
+  width: 200px;
+  border: 5px solid blue;
+  border-radius: 8px;
+}
+
+.text {
+  align-self: center;
+}
+
+/*    *** next section *** */
+
+.quote {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  /* padding: 70px; */
+  justify-content: center;
+  align-items: center;
+  padding: 60px 220px;
+}
+
+p {
+  font-size: 36px;
+  font-style:italic;
+  color: #1F2937;
+}
+
+.credit {
+  align-self: flex-end;
+}
+
+/*    *** next section *** */
+
+.CTA {
+  background-color: #3882F6;
+  margin: 80px;
+  border-radius: 8px;
+
+}
+
+.calltitle {
+  font-size: 24px;
+}
+
+.calltext {
+
+}
+
+.callbutton {
+   border: 2px solid white;
+}
+
+.footer {
+  color: white;
+  font-size: 20px;
+  font-weight:0;
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
